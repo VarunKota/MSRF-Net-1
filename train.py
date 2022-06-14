@@ -15,8 +15,8 @@ import skimage.io
 import tensorflow as tf
 import tifffile as tif
 from keras import backend as K
-from keras.initializers import RandomNormal
-from keras.layers import (
+from tensorflow.keras.initializers import RandomNormal
+from tensorflow.keras.layers import (
     Activation,
     Add,
     Average,
@@ -40,10 +40,10 @@ from keras.layers import (
     dot,
     multiply,
 )
-from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.normalization import BatchNormalization
-from keras.models import Model, Sequential
-from keras.optimizers import SGD, Adam, RMSprop
+from tensorflow.keras.layers.advanced_activations import LeakyReLU
+from tensorflow.keras.layers.normalization import BatchNormalization
+from tensorflow.keras.models import Model, Sequential
+from tensorflow.keras.optimizers import SGD, Adam, RMSprop
 from PIL import Image
 from skimage.color import rgb2gray
 from skimage.transform import downscale_local_mean, rescale, resize
