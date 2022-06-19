@@ -43,7 +43,7 @@ from keras.layers import (
 from keras.layers.advanced_activations import LeakyReLU
 from tensorflow.keras.layers import BatchNormalization
 from keras.models import Model, Sequential
-from keras.optimizers import SGD, Adam, RMSprop
+from tensorflow.keras.optimizers import SGD, Adam, RMSprop
 from PIL import Image
 from skimage.color import rgb2gray
 from skimage.transform import downscale_local_mean, rescale, resize
