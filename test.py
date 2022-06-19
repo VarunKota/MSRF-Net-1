@@ -41,7 +41,7 @@ from keras.layers import (
     multiply,
 )
 from keras.layers.advanced_activations import LeakyReLU
-from keras.layers.normalization import BatchNormalization
+from tensorflow.keras.layers import BatchNormalization
 from keras.models import Model, Sequential
 from keras.optimizers import SGD, Adam, RMSprop
 from PIL import Image
